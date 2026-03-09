@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\TrackerLibrary.csproj" />
     <ProjectReference Include="..\TrackerLibrary\TrackerLibrary.csproj" />
   </ItemGroup>
 

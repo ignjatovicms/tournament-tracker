@@ -8,10 +8,9 @@ using TrackerLibrary.Models;
 
 namespace TrackerLibrary.DataAccess.TextHelpers;
 
-//* Load the text file
 public static class TextConnectorProcessor
 {
-    public static string FullFilePath(this string fileName) //PrizeModels.csv
+    public static string FullFilePath(this string fileName) 
     {
         return $"{ ConfigurationManager.AppSettings["filePath"] }\\{fileName}";
     }
@@ -25,7 +24,6 @@ public static class TextConnectorProcessor
         return File.ReadAllLines(file).ToList();
     }
 
-    //*Convert the text to List<PrizeModel>
     public static List<PrizeModel> ConvertToPrizeModels(this List<string> lines)
     {
         List<PrizeModel> output = new List<PrizeModel>();
@@ -119,7 +117,7 @@ public static class TextConnectorProcessor
     {
         // Loop through each Round
         // Loop through each Matchup
-        // Get the id for the new matchup abd save the recird
+        // Get the id for the new matchup and save the record
         // Loop through each Entry, get the id and save it
 
         foreach (List<MatchupModel> round in model.Rounds)
@@ -157,7 +155,7 @@ public static class TextConnectorProcessor
         // save to file
         List<string> lines = new List<string>();
 
-        // id=0, entries = 1(pipe delimited by id), winner=2, matchupRound=3
+        // id=0, entries = 1 (pipe delimited by id), winner=2, matchupRound=3
         foreach (MatchupModel m in matchups)
         {
             string winner = "";
@@ -286,8 +284,8 @@ public static class TextConnectorProcessor
 
     public static List<TeamModel> ConvertToTeamModels(this List<String> lines)
     {
-        //id,team name,list of ids separated by the pipe
-        //3,Tim's Team,1|3|5
+        //id, team name, list of ids separated by the pipe
+        //3, Milos's Team, 1|3|5
         List<TeamModel> output = new List<TeamModel>();
         List<PersonModel> people = GlobalConfig.PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
 

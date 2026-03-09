@@ -44,24 +44,18 @@ namespace TrackerLibrary
             return ConfigurationManager.AppSettings[key];
         }
 
-
-            //public static string CnnString(string name)
-            //{
-            //    return ConfigurationManager.ConnectionStrings["Tournaments"].ConnectionString;
-            //}
-
-
-            //switch(db)
-            //{
-            //    case DatabaseType.Sql:
-            //        SqlConnector sql = new SqlConnector();
-            //        Connection = sql;
-            //        break;
-            //        case DatabaseType.TextFile:
-            //        TextConnector text = new TextConnector();
-            //        Connection = text;
-            //        break;
-            //        default break;
-            //}
+        /*switch(db)
+        {
+            case DatabaseType.Sql:
+                SqlConnector sql = new SqlConnector();
+                Connection = sql;
+                break;
+                case DatabaseType.TextFile:
+                TextConnector text = new TextConnector();
+                Connection = text;
+                break;
+                default break;
+        }
+        */
     }
 }

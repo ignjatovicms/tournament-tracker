@@ -11,7 +11,7 @@ namespace TrackerLibrary
 {
     public static class TournamentLogic
     {
-        //  Order our list randomly of teams 
+        //  Order our list  of teams randomly
         //  Check if it is big enough - if not, add byes  2*2*2*2 - 2^4
         //  Create our first round of matchups
         //  Create every round after that - 8 matchups - 4 matchups - 2 matchups - 1 matchup
@@ -203,7 +203,6 @@ namespace TrackerLibrary
 
         private static List<TeamModel> RandomizeTeamOrder(List<TeamModel> teams)
         {
-            // cards.OrderBy(a => Guid.NewGuid()).ToList();
             return teams.OrderBy(x => Guid.NewGuid()).ToList();
         }
 

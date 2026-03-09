@@ -112,10 +112,10 @@ namespace TrackerLibrary.DataAccess
 
         public TournamentModel GetTournamentById(int id)
         {
-            // Učitaj sve turnire
+            // Load all tournaments from the file
             List<TournamentModel> tournaments = GetTournament_All();
 
-            // Pronađi turnir sa traženim ID
+            // Find the tournament with the specified ID
             foreach (TournamentModel tournament in tournaments)
             {
                 if (tournament.Id == id)
@@ -124,7 +124,7 @@ namespace TrackerLibrary.DataAccess
                 }
             }
 
-            // Vrati null ako turnir nije pronađen
+            // If no tournament is found with the given ID, return null or throw an exception
             return null;
         }
     }

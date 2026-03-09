@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "10.0.3",
           "Microsoft.Extensions.Configuration.Json": "10.0.3",
-          "System.Configuration.ConfigurationManager": "10.0.3"
+          "System.Configuration.ConfigurationManager": "10.0.3",
+          "TrackerLibrary": "1.0.0"
         },
         "runtime": {
           "TrackerUI.dll": {}
@@ -261,6 +262,22 @@
             "fileVersion": "10.0.326.7603"
           }
         }
+      },
+      "TrackerLibrary/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.72",
+          "Microsoft.Extensions.Configuration": "10.0.3",
+          "Microsoft.Extensions.Configuration.Binder": "10.0.3",
+          "Microsoft.Extensions.Configuration.Json": "10.0.3",
+          "System.Configuration.ConfigurationManager": "10.0.3",
+          "System.Data.SqlClient": "4.9.1"
+        },
+        "runtime": {
+          "TrackerLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -423,6 +440,11 @@
       "sha512": "sha512-NTUt9DL+maqbgrIYCAmeZUbX0NoXaueySyjW/bdOlFdSUDC1l51XnsbVEuj5tuad12vdq5Sviskp9uMVGgCNLw==",
       "path": "system.text.json/10.0.3",
       "hashPath": "system.text.json.10.0.3.nupkg.sha512"
+    },
+    "TrackerLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
