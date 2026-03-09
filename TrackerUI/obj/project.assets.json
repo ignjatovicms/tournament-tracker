@@ -1265,6 +1265,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\Documents\\Programing\\TournamentTrackerApp\\ClassLibrary1\\TrackerLibrary.csproj": {
               "projectPath": "C:\\Users\\Admin\\Documents\\Programing\\TournamentTrackerApp\\ClassLibrary1\\TrackerLibrary.csproj"
+            },
+            "C:\\Users\\Admin\\Documents\\Programing\\TournamentTrackerApp\\TrackerLibrary\\TrackerLibrary.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\Programing\\TournamentTrackerApp\\TrackerLibrary\\TrackerLibrary.csproj"
             }
           }
         }
