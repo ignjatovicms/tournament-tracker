@@ -10,22 +10,22 @@ This project was built while following the 24-hour course by Tim Corey and demon
 ## Screenshots
 
 ### Create Tournament
-Create Tournament images/<img width="930" height="639" alt="CreateTournament" src="https://github.com/user-attachments/assets/950ff79f-38d5-43da-9c95-01d770d8fead" />
+<img width="930" height="639" alt="CreateTournament" src="https://github.com/user-attachments/assets/950ff79f-38d5-43da-9c95-01d770d8fead" />
 
 ### Tournament Viewer Form
-Tournament Viewer images/<img width="1059" height="722" alt="TournamentViewer" src="https://github.com/user-attachments/assets/ca0dc9b9-dda5-4e56-b838-28f64ef2b6ef" />
+<img width="1059" height="722" alt="TournamentViewer" src="https://github.com/user-attachments/assets/ca0dc9b9-dda5-4e56-b838-28f64ef2b6ef" />
 
 ### Create Team
-![Create Team](images/<img width="888" height="721" alt="CreateTeam" src="https://github.com/user-attachments/assets/5458273c-f7a4-4dab-83e5-c91d566ced7b" />
+<img width="888" height="721" alt="CreateTeam" src="https://github.com/user-attachments/assets/5458273c-f7a4-4dab-83e5-c91d566ced7b" />
 
 ### Tournament Dashboard
-Tournament Viewer images/<img width="720" height="389" alt="TournamentDashboard" src="https://github.com/user-attachments/assets/a968c819-640e-406d-b8ee-11dd1d2d8612" />
+<img width="720" height="389" alt="TournamentDashboard" src="https://github.com/user-attachments/assets/a968c819-640e-406d-b8ee-11dd1d2d8612" />
 
 ### Create Prize
-Tournament Viewer images/<img width="470" height="483" alt="CreatePrize" src="https://github.com/user-attachments/assets/bc285e63-a262-4292-8659-10ab4776960f" />
+<img width="470" height="483" alt="CreatePrize" src="https://github.com/user-attachments/assets/bc285e63-a262-4292-8659-10ab4776960f" />
 
 ### Database Diagram
-Database Diagram images/<img width="751" height="704" alt="TournamentTrackerDiagram" src="https://github.com/user-attachments/assets/a965b35d-8287-4f99-a3f6-3b53882b07f1" />
+<img width="751" height="704" alt="TournamentTrackerDiagram" src="https://github.com/user-attachments/assets/a965b35d-8287-4f99-a3f6-3b53882b07f1" />
 
 ---
 
@@ -135,5 +135,5 @@ Through this project I practiced:
 ---
 
 ## Credits
-This project was built while following the software development course created by Tim Corey - https://www.youtube.com/@TimCorey](https://www.youtube.com/@IAmTimCorey .
+This project was built while following the software development course created by Tim Corey - https://www.youtube.com/@IAmTimCorey.
 The course demonstrates how to design and build a complete application including database design, business logic, and user interface.
